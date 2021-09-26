@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+}
+
+/* Header */
+.Homeheader {
+  overflow: hidden;
+  text-align:center;
+  background: white;
+}
+.Homeheader h1 {
+  font-size: 30px;;
+}
+.Hometableaa {
+  border-collapse: collapse;
+  width: 100%;
+}
+.Hometableaa{
+  border: 1px;
+}
+.Homedahtdaa{
+  width: 70%;
+  right: auto;
+}
+.Homedahtdbb{
+  width: 15%;
+}
+.Homedashgalleryaa {
+  
+  min-width: 400px;  
+  max-width: 400px;
+  left: auto;
+}
+.Homedashgalleryaa img {
+  width: 100%;
+  height: auto;
+}
+.Homedashgallerybb {
+  right: auto;
+  min-width: 150px;  
+  max-width: 150px;
+}
+.Homedashgallerybb img {
+  width: 100%;
+  height: auto;
+}
+.Homedashgallerybb:hover {
+  border: 1px solid #777;
+}
+
+
+
+
+/* Style the top navigation bar */
+.Hometopnavi {
+  overflow: hidden;
+  background-color: #333;
+}
+.Hometopnavi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.Hometopnavi a:hover {
+  background-color: #ddd;
+  color:#333;
+}
+.Hometopnavi .Hometopsupport {
+  float: right;
+}
+
+
+
+/* Left column */
+.dashcolumn {   
+  margin: auto;
+  width: 98%;
+  background-color: #f1f1f1;
+}
+.card {
+  align-content: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Homedashgallery {
+  margin: auto;  
+  max-width: 400px;
+}
+.Homedashgallery:hover {
+  border: 1px solid #777;
+}
+.Homedashgallery img {
+  width: 100%;
+  height: auto;
+}
+.Homewriteaa{
+  text-align: center;
+}
+
+
+
+/* Footer */
+.Homefooter {
+  overflow: hidden;
+  background-color:cornflowerblue;
+  text-align: center;
+  text-decoration-color:#333;
+  margin: auto;
+}
+.Homefooter a {
+  float: left;
+  display: block;
+  color: #f2f2f2; 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.Homefooter a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.Hometablebb{
+  border: 1px;
+  width: 100%;
+}
+.Homedahtdcc{
+  width: 25%;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .dashcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .Hometopnavi a {
+    float: none;
+    width: 100%;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the Header stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .Homeheader {
+    float: none;
+    width: 100%;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the Header stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .Homefooter a {
+    float: none;
+    width: 100%;
+  }
+}

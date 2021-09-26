@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial;
+
+  }
+  
+  
+  /* Style the header*/
+  .Workertaskdoneheader {
+    padding: 5px;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #333;
+    border-radius: 62px;
+    width: 90%;
+    margin-left: 14.5%;
+    height: 70px;
+
+    
+  }
+  .Workertaskdoneheader h1 {
+    font-size: 40px;
+    color: #f2f2f2;
+  }
+
+  
+  
+  /* Create two unequal columns that floats next to each other */
+  .Workertaskdonecolumn {   
+    
+    width: 1000px;
+    margin-left: 10%;
+  }
+  /* Add a card effect for articles */
+  .Workertaskdonecard {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px
+  }
+  /* Clear floats after the columns */
+  .Workertaskdonerow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .Workertaskdonecolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }

@@ -1,0 +1,23 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.footer{
+    position:fixed;
+	top: 85%;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    
+}
+.head{
+margin-left: 24px;    
+}
+.head1{
+    position: relative;
+    right: 110%;
+}
+.head2{
+    position: relative;
+    right: 105%;
+}

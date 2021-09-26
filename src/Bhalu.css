@@ -1,0 +1,26 @@
+
+.header{
+    text-align: center;
+}
+
+
+.first{
+    background-color: whitesmoke;
+}
+#course-name{
+color:green;
+}
+#border1{
+    outline-style:double;
+    background-color: rgb(103, 103, 235);
+}
+#table{
+    border: 4px solid black;
+    background-color:gray; 
+     color: white;
+    font-size: 35px;
+    margin-left: 350px;
+}
+#dfs{
+    color: mediumpurple;
+}

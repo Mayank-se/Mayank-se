@@ -1,0 +1,14 @@
+#list{
+    list-style-type: none;
+}
+#field{
+    border: 2px solid;
+    margin-right: 45px;
+}
+#header{
+background-color: whitesmoke;
+margin-right: 650px;
+font-size: 34px;
+border: 3px solid;
+border-radius: 25px;
+float: left;}

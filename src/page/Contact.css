@@ -1,0 +1,64 @@
+.Contact-page{
+text-align: center;
+justify-content: center;
+margin-top: -800px;
+margin-left: 222px;
+
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.ka{
+    background-color: blue;
+    width:100%;
+    height:60px;
+    color: white;
+    font-size: 20px;
+    padding-top:10px;
+    
+}
+.kb{
+    padding-left:20px;
+    padding-top:10px;
+}
+/* .kc{ 
+    background-image: url("a6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:100%;
+    transition: 2s;
+    animation-name:animate ;
+    animation-direction:alternate-reverse ;
+    animation-duration: 15s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite ;
+    animation-timing-function:ease-in-out ;
+    animation-play-state:running ;
+}*/
+
+/* @keyframes animate{ 
+    0%{
+        background-image: url("a4.jpeg"); 
+    }20%{
+        background-image: url("a5.jpeg");
+    }40%{
+        background-image: url("a6.jpeg");
+    }80%{
+        background-image: url("a7.jpeg");
+    }
+}
+*/
+
+.ke{
+    text-align: center;
+    color:purple;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.kd{   
+    margin-left:20px;
+    margin-right:20px;
+}
